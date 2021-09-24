@@ -484,15 +484,15 @@ footer div img {
     }
 
     .whats {
-        margin-top: 45px;
-        width: 45px;
+        margin-top: 5px;
+        width: 50px;
     }
 
     .insta {
-        margin-top: 5px;
+        margin-top: 10px;
     }
 
     .sales {
-        margin-top: -5px;
+        margin-top: 0;
     }
 }
