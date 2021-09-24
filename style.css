@@ -235,6 +235,19 @@ footer div img {
     width: 50px;
 }
 
+.insta {
+    margin-top: 25px;
+    width: 40px;
+}
+
+.sales {
+    margin-top: 15px;
+    width: 60px;
+}
+
+.face {
+    width: 55px;
+}
 @media (max-width: 1380px) {
     .textos-props-tree {
         padding: 80px;
@@ -460,7 +473,21 @@ footer div img {
 }
 
 @media (max-width: 360px) {
-    footer div a img{
-        width: 40px;
+
+    footer div img {
+        margin: 0 10px;
+    }
+
+    .whats {
+        margin-top: 45px;
+        width: 45px;
+    }
+
+    .insta {
+        margin-top: 5px;
+    }
+
+    .sales {
+        margin-top: -5px;
     }
 }
