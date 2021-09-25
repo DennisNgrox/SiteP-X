@@ -14,8 +14,8 @@ central2.onclick = () => {
 const scrollReveal = ScrollReveal({
     origin: 'top',
     distance: '30px',
-    duration: 600,
-    reset: false
+    duration: 700,
+    reset: true
 }); 
 
 scrollReveal.reveal(
@@ -23,6 +23,6 @@ scrollReveal.reveal(
     .imagems-cel-two, .textos-props-two h1, 
     .imagems-cel-tree, .textos-props-tree h1,
     .imagems-cel-for
-    `,  { interval: 50})
+    `,  { interval: 100})
 
 
