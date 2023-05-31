@@ -11,18 +11,5 @@ central2.onclick = () => {
 }
 /* ScroollRevel: Mostrar elementos quando der scroll na página */
 
-const scrollReveal = ScrollReveal({
-    origin: 'top',
-    distance: '30px',
-    duration: 700,
-    reset: true
-}); 
-
-scrollReveal.reveal(
-    `.imagems-cel img, .textos-props h1,
-    .imagems-cel-two, .textos-props-two h1, 
-    .imagems-cel-tree, .textos-props-tree h1,
-    .imagems-cel-for
-    `,  { interval: 100})
 
 
